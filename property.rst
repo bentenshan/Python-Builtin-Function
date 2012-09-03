@@ -70,11 +70,11 @@ property
    The returned property also has the attributes ``fget``, ``fset``, and
    ``fdel`` corresponding to the constructor arguments.
 
-   .. versionadded:: 2.2
+   versionadded:: 2.2
 
-   .. versionchanged:: 2.5
-      Use *fget*'s docstring if no *doc* given.
+   versionchanged:: 2.5
+   Use *fget*'s docstring if no *doc* given.
 
-   .. versionchanged:: 2.6
-      The ``getter``, ``setter``, and ``deleter`` attributes were added.
+   versionchanged:: 2.6
+   The ``getter``, ``setter``, and ``deleter`` attributes were added.
 
