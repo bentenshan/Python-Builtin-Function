@@ -3,8 +3,7 @@ property
 
 ``function:: property([fget[, fset[, fdel[, doc]]]])``
 
-   Return a property attribute for :term:`new-style class`\es (classes that
-   derive from :class:`object`).
+   返回 ``new-style class`` 的property属性（所有新式类都继承自 ``object`` ）。
 
    *fget* is a function for getting an attribute value, likewise *fset* is a
    function for setting, and *fdel* a function for del'ing, an attribute.  Typical
