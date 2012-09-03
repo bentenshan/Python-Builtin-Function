@@ -1,7 +1,7 @@
 property
 =========
 
-  ``function:: property([fget[, fset[, fdel[, doc]]]])``
+``function:: property([fget[, fset[, fdel[, doc]]]])``
 
    Return a property attribute for :term:`new-style class`\es (classes that
    derive from :class:`object`).
